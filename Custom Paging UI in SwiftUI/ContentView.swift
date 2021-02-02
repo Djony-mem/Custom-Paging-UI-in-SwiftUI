@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var currentIndex = 0
-    private let colors: [Color] = [.red, .blue, .green, .yellow]
+    private let colors: [Color] = [.pink, .blue, .green, .yellow]
     
     
     var body: some View {
@@ -19,7 +19,7 @@ struct ContentView: View {
                     .tag(index)
             }
         }
-        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
         .overlay(FancyThreeDotsIndexView(numberOfPages: colors.count, currentIndex: currentIndex))
         .animation(.default)
     }
