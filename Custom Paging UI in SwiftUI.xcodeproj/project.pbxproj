@@ -12,7 +12,6 @@
 		76B5663825C897FB00DAE88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B5663725C897FB00DAE88F /* Assets.xcassets */; };
 		76B5663B25C897FB00DAE88F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B5663A25C897FB00DAE88F /* Preview Assets.xcassets */; };
 		76B5664425C89D0D00DAE88F /* FancyThreeDotsIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5664325C89D0D00DAE88F /* FancyThreeDotsIndexView.swift */; };
-		76B5664A25C8B0D100DAE88F /* SquareStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5664925C8B0D100DAE88F /* SquareStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		76B5663A25C897FB00DAE88F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76B5663C25C897FB00DAE88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76B5664325C89D0D00DAE88F /* FancyThreeDotsIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyThreeDotsIndexView.swift; sourceTree = "<group>"; };
-		76B5664925C8B0D100DAE88F /* SquareStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 				76B5663325C897F900DAE88F /* Custom_Paging_UI_in_SwiftUIApp.swift */,
 				76B5663525C897F900DAE88F /* ContentView.swift */,
 				76B5664325C89D0D00DAE88F /* FancyThreeDotsIndexView.swift */,
-				76B5664925C8B0D100DAE88F /* SquareStyle.swift */,
 				76B5663725C897FB00DAE88F /* Assets.xcassets */,
 				76B5663C25C897FB00DAE88F /* Info.plist */,
 				76B5663925C897FB00DAE88F /* Preview Content */,
@@ -146,7 +143,6 @@
 			files = (
 				76B5663625C897F900DAE88F /* ContentView.swift in Sources */,
 				76B5663425C897F900DAE88F /* Custom_Paging_UI_in_SwiftUIApp.swift in Sources */,
-				76B5664A25C8B0D100DAE88F /* SquareStyle.swift in Sources */,
 				76B5664425C89D0D00DAE88F /* FancyThreeDotsIndexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
